@@ -31,7 +31,7 @@ C:\Users\ROGER\Desktop\NICK\capstone\Capstone\Desktop homepage.png
 ## Getting Started
 
 ##live demo
-
+https://nowembabazi.github.io/Interior-Capstone/
 
 **This is an example of how you may give instructions on setting up your project locally.**
 - To clone to local machine; git clone https://github.com/Nowembabazi/Interior-Capstone.git

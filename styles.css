@@ -1,260 +1,259 @@
 body {
-    padding: 0%;
-    margin: 0;
-  }
-  
+  padding: 0%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+a :hover {
+  color: #272a31;
+  text-decoration: none;
+}
+
+.hr-title {
+  border-bottom: 1px solid #ec5242;
+  width: 5%;
+}
+
+.hr-speakers {
+  border-bottom: 1px solid #3c3e43;
+  width: 5%;
+}
+
+.partners-section {
+  background-color: #414246;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+  height: 50vh;
+}
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.partners figure {
+  margin: 2rem;
+}
+
+.partners img {
+  filter: contrast(8);
+}
+
+.main-section {
+  background-image: url('https://c1.wallpaperflare.com/preview/675/259/577/office-desk-chair-white-thumbnail.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600PX;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+  color: #ec5242;
+}
+
+.title1 {
+  padding-left: 36px;
+}
+
+.firstline {
+  font-size: 18px;
+  margin-bottom: -25px;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.quote {
+  text-align: left;
+  color: #272a31;
+  font-size: 15px;
+  width: 85%;
+  padding: 10px 14px 10px 14px;
+  border: 3px solid #fff;
+  margin: auto;
+}
+
+.details-1 {
+  color: #272a31;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  padding-left: 36px;
+  margin-top: 15px;
+}
+
+.details-2 {
+  color: #272a31;
+  font-size: 16px;
+  padding-bottom: 80px;
+  padding-left: 35px;
+}
+
+.container1 {
+  background-image: url('https://clauzzen.files.wordpress.com/2011/01/vintage-pattern_black.png');
+}
+
+.box-1 {
+  color: #ec5242;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.box-2 {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+
+.mp {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-size: 30px;
+}
+
+.speaker-avatar {
+  width: 80%;
+  height: 30vh;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.featured {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.about-quote {
+  text-align: center;
+  color: #272a31;
+  background-color: white;
+  font-size: 16px;
+  width: 90%;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid rgb(196, 191, 191);
+  margin: auto;
+}
+
+.about-details-1 {
+  color: #272a31;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.about-details-2 {
+  color: #272a31;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  padding-bottom: 30px;
+  margin-top: -15px;
+}
+
+.about-title1 {
+  text-align: center;
+}
+
+.about-firstline {
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.about-header {
+  font-size: 40px;
+}
+
+.about-mp {
+  text-align: center;
+}
+
+.logo-img {
+  text-align: center;
+  background-color: white;
+  width: 90%;
+  padding: 30px 10px 30px 10px;
+  border: 1px solid rgb(170, 165, 165);
+  margin-right: 40px;
+}
+
+.about-info {
+  text-align: center;
+  font-size: 14px;
+}
+
+.about-box-2 {
+  text-align: center;
+  padding-right: 40px;
+}
+
+  /* Mobile view */
+ @media screen and (max-width: 768px) {
   a {
     text-decoration: none;
     color: #272a31;
   }
   
-  a :hover {
+ a :hover {
     color: #272a31;
     text-decoration: none;
-  }
+ }
   
-  .hr-title {
-    border-bottom: 1px solid #ec5242;
-    width: 5%;
-  }
+ .main-section {
+    padding-top: 12px;
+ }
   
-  .hr-speakers {
-    border-bottom: 1px solid #3c3e43;
-    width: 5%;
-  }
+ .nav-logo {
+    color: #272a31;
+    font-size: 22px;
+    text-decoration: none;
+ }
+
+ .nav-logo :hover {
+    color: #272a31;
+ }
   
-  .partners-section {
-    background-color: #414246;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 10px;
-    height: 50vh;
-  }
+ .nav-list.active {
+    left: 0;
+ }
   
-  .partners {
+ .navbar-1 {
+    display: none;
+ }
+  
+  .navbar-2 {
+    display: none;
+}
+
+  .nav-list {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-  }
-  
-  .partners figure {
-    margin: 2rem;
-  }
-  
-  .partners img {
-    filter: contrast(8);
-  }
-  
-  .main-section {
-    background-image: url('https://c1.wallpaperflare.com/preview/675/259/577/office-desk-chair-white-thumbnail.jpg');
-    background-repeat: no-repeat;
+    position: fixed;
+    flex-direction: column;
+    height: 100%;
     width: 100%;
-    height: 600PX;
-    background-size: cover;
-    font-family: "Lato", sans-serif;
-    color: #ec5242;
-  }
-  
-  .title1 {
-    padding-left: 36px;
-  }
-  
-  .firstline {
-    font-size: 18px;
-    margin-bottom: -25px;
-  }
-  
-  .header {
-    font-size: 32px;
-    font-weight: bolder;
-    margin-bottom: 30px;
-    padding-top: 30px;
-  }
-  
-  .quote {
-    text-align: left;
-    color: #272a31;
-    font-size: 15px;
-    width: 85%;
-    padding: 10px 14px 10px 14px;
-    border: 3px solid #fff;
-    margin: auto;
-  }
-  
-  .details-1 {
-    color: #272a31;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 12px;
-    padding-left: 36px;
-    margin-top: 15px;
-  }
-  
-  .details-2 {
-    color: #272a31;
-    font-size: 16px;
-    padding-bottom: 80px;
-    padding-left: 35px;
-  }
-  
-  .container1 {
-    background-image: url('https://clauzzen.files.wordpress.com/2011/01/vintage-pattern_black.png');
-  }
-  
-  .box-1 {
-    color: #ec5242;
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  .box-2 {
-    color: #fff;
-    font-family: "Lato", sans-serif;
-    font-size: 15px;
-  }
-  
-  .mp {
     text-align: center;
-    font-family: "Lato", sans-serif;
-    color: #fff;
-    font-size: 30px;
-  }
-  
-  .speaker-avatar {
-    width: 80%;
-    height: 30vh;
-    object-fit: cover;
-    margin-left: 20px;
-  }
-  
-  .featured {
-    width: 100%;
-    height: auto;
-    text-align: center;
-  }
- 
-  .about-quote {
-    text-align: center;
-    color: #272a31;
-    background-color: white;
-    font-size: 16px;
-    width: 90%;
-    padding: 10px 10px 10px 10px;
-    border: 1px solid rgb(196, 191, 191);
-    margin: auto;
-  }
-  
-  .about-details-1 {
-    color: #272a31;
-    text-align: center;
-    font-size: 14px;
-    padding-top: 15px;
-  }
-  
-  .about-details-2 {
-    color: #272a31;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 700;
-    text-decoration: underline;
-    padding-bottom: 30px;
-    margin-top: -15px;
-  }
-  
-   
-  .about-title1 {
-    text-align: center;
-  }
-  
-  .about-firstline {
-    margin-bottom: 5px;
-    font-size: 30px;
-  }
-  
-  .about-header {
-    font-size: 40px;
-  }
-
-  .about-mp {
-    text-align: center;
-  }
-  
-  .logo-img {
-    text-align: center;
-    background-color: white;
-    width: 90%;
-    padding: 30px 10px 30px 10px;
-    border: 1px solid rgb(170, 165, 165);
-    margin-right: 40px;
-  }
-  
-  .about-info {
-    text-align: center;
-    font-size: 14px;
-  }
-  
-  .about-box-2 {
-    text-align: center;
-    padding-right: 40px;
-  }
-  
-  /* Mobile view */
-  @media screen and (max-width: 768px) {
-    a {
-      text-decoration: none;
-      color: #272a31;
-    }
-  
-    a :hover {
-      color: #272a31;
-      text-decoration: none;
-    }
-  
-    .main-section {
-      padding-top: 12px;
-    }
-  
-    .nav-logo {
-      color: #272a31;
-      font-size: 22px;
-      text-decoration: none;
-    }
-  
-    .nav-logo :hover {
-      color: #272a31;
-    }
-  
-    .nav-list.active {
-      left: 0;
-    }
-  
-    .navbar-1 {
-      display: none;
-    }
-  
-    .navbar-2 {
-      display: none;
-    }
-
-    .nav-list {
-        display: flex;
-        position: fixed;
-        flex-direction: column;
-        height: 100%;
-        width: 100%;
-        text-align: center;
-        left: -100%;
-        background: #ec5242;
-        border: 5px solid black;
-        border-radius: 24px;
-        top: 0;
-        gap: 32px;
-        padding-top: 70px;
-      }
+    left: -100%;
+    background: #ec5242;
+    border: 5px solid black;
+    border-radius: 24px;
+    top: 0;
+    gap: 32px;
+    padding-top: 70px;
+}
     
     .nav-items {
       color: #272a31;
@@ -357,6 +356,8 @@ body {
     }
   
     .about-past {
+      background-image: linear-gradient(rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Lobby_Hotel_Bristol_w_Warszawie.JPG/1280px-Lobby_Hotel_Bristol_w_Warszawie.JPG");
+      background-repeat: no-repeat;
       color: #fff;
       padding: 50px;
       width: 95%;
