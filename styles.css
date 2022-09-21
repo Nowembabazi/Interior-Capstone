@@ -357,10 +357,10 @@ a :hover {
 
   .about-past {
     background-image:
-    linear-gradient(
-      rgba(236, 82, 66, 0.5),
-      rgba(236, 82, 66, 0.5)
-    ),
+      linear-gradient(
+        rgba(236, 82, 66, 0.5),
+        rgba(236, 82, 66, 0.5)
+      ),
       url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Lobby_Hotel_Bristol_w_Warszawie.JPG/1280px-Lobby_Hotel_Bristol_w_Warszawie.JPG");
     background-repeat: no-repeat;
     color: #fff;
@@ -671,10 +671,10 @@ a :hover {
 
   .about-past {
     background-image:
-    linear-gradient(
-      rgba(236, 82, 66, 0.5),
-      rgba(236, 82, 66, 0.5)
-    ),
+      linear-gradient(
+        rgba(236, 82, 66, 0.5),
+        rgba(236, 82, 66, 0.5)
+      ),
       url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Lobby_Hotel_Bristol_w_Warszawie.JPG/1280px-Lobby_Hotel_Bristol_w_Warszawie.JPG");
     background-repeat: no-repeat;
     color: #fff;
