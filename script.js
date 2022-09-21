@@ -7,17 +7,14 @@ hamburger.addEventListener('click', () => {
   navList.classList.toggle('active');
 });
 
-document.querySelectorAll('.nav-items').forEach((n) =>
-n.addEventListener('click', () => {
+document.querySelectorAll('.nav-items').forEach((n) => n.addEventListener('click', () => {
     hamburger.classList.remove('active');
     navList.classList.remove('active');
-  }),
-
-);
+  }));
 
 const reset = () => {
   if (window.innerWidth > 768) {
-    navbar.style.display = 'none';
+    // navbar.style.display = 'none';
   }
 };
 
