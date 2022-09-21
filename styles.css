@@ -356,10 +356,11 @@ a :hover {
   }
 
   .about-past {
-    background-image: linear-gradient(
-        rgba(236, 82, 66, 0.5),
-        rgba(236, 82, 66, 0.5)
-      ),
+    background-image:
+    linear-gradient(
+      rgba(236, 82, 66, 0.5),
+      rgba(236, 82, 66, 0.5)
+    ),
       url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Lobby_Hotel_Bristol_w_Warszawie.JPG/1280px-Lobby_Hotel_Bristol_w_Warszawie.JPG");
     background-repeat: no-repeat;
     color: #fff;
@@ -443,7 +444,7 @@ a :hover {
 
   .speaker-image {
     width: 130px;
-    height: 130spx;
+    height: 130px;
   }
 
   .speaker-details {
@@ -669,10 +670,11 @@ a :hover {
   }
 
   .about-past {
-    background-image: linear-gradient(
-        rgba(236, 82, 66, 0.5),
-        rgba(236, 82, 66, 0.5)
-      ),
+    background-image:
+    linear-gradient(
+      rgba(236, 82, 66, 0.5),
+      rgba(236, 82, 66, 0.5)
+    ),
       url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Lobby_Hotel_Bristol_w_Warszawie.JPG/1280px-Lobby_Hotel_Bristol_w_Warszawie.JPG");
     background-repeat: no-repeat;
     color: #fff;
