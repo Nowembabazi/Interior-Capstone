@@ -159,6 +159,7 @@ a :hover {
   text-align: center;
   font-size: 14px;
   padding-top: 15px;
+  margin-bottom: 10px;
 }
 
 .about-details-2 {
@@ -205,6 +206,7 @@ a :hover {
 .about-box-2 {
   text-align: center;
   padding-right: 40px;
+  margin-bottom: 10px;
 }
 
 /* Mobile view */
@@ -530,12 +532,6 @@ a :hover {
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 6px;
-  }
-
-  .line {
-    display: flex;
-    justify-content: center;
-    width: 100%;
   }
 
   .nav-items {
