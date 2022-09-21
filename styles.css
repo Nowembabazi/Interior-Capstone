@@ -520,7 +520,7 @@ a :hover {
   .nav-logo {
     margin-right: 300px;
     padding-left: 200px;
-    color: #3d3c3c;
+    color: #535151;
   }
 
   .fa-facebook-f {
@@ -555,7 +555,7 @@ a :hover {
   .hr-title {
     border-bottom: 1px solid #ec5242;
     width: 5%;
-    margin-left: 680px;
+    margin-left: 730px;
   }
 
   .home-page {
@@ -580,7 +580,9 @@ a :hover {
   .nav-items-2 {
     color: #ec5242;
     border: 4px solid #ec5242;
-    padding: auto auto;
+    padding-top: 14px;
+    padding-left: 3px;
+    padding-right: 3px;
     margin-right: 48px;
     display: flex;
   }
@@ -631,7 +633,7 @@ a :hover {
     text-align: center;
     background-color: #272a31;
     list-style: none;
-    margin-bottom: 24px;
+    margin-bottom: 80px;
     padding: 12px;
     width: 15%;
     height: 35vh;
@@ -648,9 +650,9 @@ a :hover {
     color: #fff;
     font-family: "Lato", sans-serif;
     font-size: 15px;
-    padding-left: 600px;
+    margin-left: 670px;
     text-decoration: underline;
-    padding-top: 180px;
+    margin-top: 180px;
   }
 
   .about-quote {
