@@ -8,9 +8,9 @@ hamburger.addEventListener('click', () => {
 });
 
 document.querySelectorAll('.nav-items').forEach((n) => n.addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    navList.classList.remove('active');
-  }));
+  hamburger.classList.remove('active');
+  navList.classList.remove('active');
+}));
 
 const reset = () => {
   if (window.innerWidth > 768) {
