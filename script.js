@@ -49,7 +49,7 @@ const data = [
   },
   {
     id: 4,
-    pic: 'https://png.pngtree.com/element_pic/00/16/10/1257fe0ebf00238.jpg',
+    pic: 'https://cdn.xxl.thumbs.canstockphoto.com/realtor-happy-realtor-woman-is-showing-home-for-sale-sign-and-keys-stock-photos_csp27243435.jpg',
     altText: 'featured speaker image',
     nameOfSpeaker: 'Nick',
     designation: 'Founder of building homes',
