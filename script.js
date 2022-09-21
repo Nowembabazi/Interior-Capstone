@@ -1,6 +1,6 @@
 const hamburger = document.querySelector('.bars');
 const navList = document.querySelector('.nav-list');
-const navbar = document.querySelector('navbar');
+// const navbar = document.querySelector('navbar');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
@@ -8,10 +8,11 @@ hamburger.addEventListener('click', () => {
 });
 
 document.querySelectorAll('.nav-items').forEach((n) =>
-  n.addEventListener('click', () => {
+n.addEventListener('click', () => {
     hamburger.classList.remove('active');
     navList.classList.remove('active');
-  })
+  }),
+
 );
 
 const reset = () => {
@@ -35,7 +36,7 @@ const data = [
     id: 2,
     pic: 'https://images.pexels.com/photos/8293643/pexels-photo-8293643.jpeg?auto=compress&cs=tinysrgb&w=600.png',
     altText: 'featured speaker image',
-    nameOfSpeaker: "Elliot Didan",
+    nameOfSpeaker: 'Elliot Didan',
     designation: 'Real Estate specialist',
     history:
       'Vast years of experience in real estate, nationally and internationally ',
@@ -51,7 +52,7 @@ const data = [
   },
   {
     id: 4,
-    pic: '\https://png.pngtree.com/element_pic/00/16/10/1257fe0ebf00238.jpg',
+    pic: 'https://png.pngtree.com/element_pic/00/16/10/1257fe0ebf00238.jpg',
     altText: 'featured speaker image',
     nameOfSpeaker: 'Nick',
     designation: 'Founder of building homes',
@@ -112,7 +113,7 @@ data.forEach((speakerPara) => {
 
   const dotText = document.createElement('p');
   dotText.setAttribute('id', 'dots');
-  dotText.textContent = ".........";
+  dotText.textContent = '.........';
   contentSection.appendChild(dotText);
 
   const speakerHistory = document.createElement('p');
