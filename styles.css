@@ -124,6 +124,7 @@ a :hover {
 }
 
 .mp {
+  margin-top: 12px;
   text-align: center;
   font-family: "Lato", sans-serif;
   color: #fff;
@@ -497,7 +498,6 @@ a :hover {
     justify-content: end;
     padding-top: 12px;
     margin-left: -16px;
-    margin-right: -60px;
   }
 
   .navbar-1 :hover {
@@ -561,7 +561,6 @@ a :hover {
   .hr-title {
     border-bottom: 1px solid #ec5242;
     width: 5%;
-    margin-left: 730px;
     display: flex;
     justify-content: center;
     max-width: 100%;
@@ -634,7 +633,7 @@ a :hover {
 
   .container1 {
     width: 100%;
-    height: 70vh;
+    height: 60vh;
   }
 
   .box-container {
@@ -646,7 +645,8 @@ a :hover {
     text-align: center;
     background-color: #272a31;
     list-style: none;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
+    margin-top: -15px;
     padding: 12px;
     width: 15%;
     height: 35vh;
