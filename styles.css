@@ -703,6 +703,10 @@ a :hover {
     margin-bottom: -20px;
   }
 
+  .number {
+    margin-top: 120px;
+  }
+
   .about-pst-one {
     text-align: center;
     margin-right: 320px;
