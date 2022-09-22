@@ -121,6 +121,7 @@ a :hover {
   height: auto;
   width: 100%;
   display: flex;
+  padding-bottom: -10px;
 }
 
 .mp {
@@ -457,30 +458,38 @@ a :hover {
   }
 
   .speaker-details {
-    padding-left: 3%;
+    padding-left: 1%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: -10px;
   }
 
   #dots {
     margin: 0;
+    font-style: italic;
+    margin-left: -20px;
   }
 
   .speaker-history {
     font-size: 0.85rem;
     width: 100%;
-    margin-top: 4%;
+    margin-top: 2%;
+    margin-left: -20px;
   }
 
   .speaker-name {
     margin-block: 0;
+    font-size: medium;
+    margin-left: -20px;
   }
 
   .speaker-designation {
     margin-block: 0;
     font-size: 0.95rem;
     color: #d32b18;
+    margin-left: -20px;
+    font-style: italic;
   }
 }
 
@@ -649,10 +658,21 @@ a :hover {
     margin-top: -15px;
     padding: 12px;
     width: 15%;
-    height: 35vh;
+    height: 240px;
     opacity: 0.8;
     float: left;
     margin-left: 6px;
+  }
+
+  .box-1 {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .box-2 {
+    display: flex;
+    justify-content: center;
   }
 
   .button {
@@ -792,7 +812,6 @@ a :hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 2px 2px;
-    margin-right: 32px;
     gap: 2px;
   }
 
@@ -802,12 +821,13 @@ a :hover {
   }
 
   .speaker-image {
-    width: 130px;
+    width: 40%;
     height: 130px;
+    margin-right: -10px;
   }
 
   .speaker-details {
-    padding-left: 3%;
+    padding-left: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -815,22 +835,30 @@ a :hover {
 
   .speaker-name {
     margin-block: 0;
+    font-size: medium;
+    margin-left: -50px;
   }
 
   .speaker-designation {
     margin-block: 0;
     font-size: 0.95rem;
     color: #ec5242;
+    font-style: italic;
+    margin-left: -50px;
+    margin-bottom: -4px;
   }
 
   #dots {
     margin: 0;
+    border: ipx #505155;
+    margin-left: -50px;
   }
 
   .speaker-history {
     font-size: 0.85rem;
     width: 100%;
-    margin-top: 12px;
+    margin-top: 2px;
+    margin-left: -50px;
   }
 
   .partners {
