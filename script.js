@@ -110,7 +110,7 @@ data.forEach((speakerPara) => {
 
   const dotText = document.createElement('p');
   dotText.setAttribute('id', 'dots');
-  dotText.textContent = '.........';
+  dotText.textContent = '......';
   contentSection.appendChild(dotText);
 
   const speakerHistory = document.createElement('p');
