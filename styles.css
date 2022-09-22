@@ -658,11 +658,12 @@ a :hover {
     text-align: center;
     background-color: #272a31;
     list-style: none;
+    flex-wrap: wrap;
     margin-bottom: 70px;
     margin-top: -15px;
     padding: 12px;
     width: 15%;
-    height: 240px;
+    height: 210px;
     opacity: 0.8;
     float: left;
     margin-left: 6px;
