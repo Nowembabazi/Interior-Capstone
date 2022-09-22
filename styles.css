@@ -51,11 +51,12 @@ a :hover {
 .main-section {
   background-image: url("https://c1.wallpaperflare.com/preview/675/259/577/office-desk-chair-white-thumbnail.jpg");
   background-repeat: no-repeat;
-  width: 104%;
+  width: 100%;
   height: auto;
   background-size: cover;
   font-family: "Lato", sans-serif;
   color: #ec5242;
+  margin-right: -18px;
 }
 
 .title1 {
@@ -72,6 +73,7 @@ a :hover {
   font-weight: bolder;
   margin-bottom: 30px;
   padding-top: 30px;
+  color: #c21b09;
 }
 
 .quote {
@@ -212,7 +214,7 @@ a :hover {
 }
 
 /* Mobile view */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
   a {
     text-decoration: none;
     color: #272a31;
@@ -496,7 +498,7 @@ a :hover {
 }
 
 /* Desktop View */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 868px) {
   .navbar {
     margin-right: -33px;
     margin-left: -14px;
@@ -510,7 +512,6 @@ a :hover {
     align-items: flex-start;
     justify-content: end;
     padding-top: 12px;
-    /* margin-left: -16px; */
   }
 
   .navbar-1 :hover {
