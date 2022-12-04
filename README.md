@@ -40,10 +40,10 @@ https://nowembabazi.github.io/Interior-Capstone/
 - run live server
 
 👤 Nowembabazi Nickson
+- GitHub: [@Nowembabazi](https://github.com/Nowembabazi)
+- Twitter: [@tNowembabaziN](https://twitter.com/NowembabaziN)
+- LinkedIn: [nowembabazi-nickson](https://www.linkedin.com/in/nowembabazi-nickson-181077247/)
 
-- GitHub: [@githubhandle](https://github.com/Nowembabazi)
-- Twitter: [@twitterhandle](https://twitter.com/NowembabaziN)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nowembabazi-nickson-181077247/)
 
 
 ## 🤝 Contributing
