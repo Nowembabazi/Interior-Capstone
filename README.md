@@ -9,9 +9,10 @@ C:\Users\ROGER\Desktop\NICK\capstone\Capstone\Desktop homepage.png
 [link] https://www.loom.com/share/5f79a3715f8d48299536b1f816162458
 
 > Description the project.
+-I built this project using html tags javascript and bootstrap.   This project shows cases my skill in javascript. Its all about an interior symposium that was recently held in my country.
 -add html tags to my page.
 -used javascript
--useed bootstrap.
+-used bootstrap.
 -Created a MIT.md file.
 -applied a background.
 -applied icons to my page.
